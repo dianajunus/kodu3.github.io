@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ee">
+
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Internet Exploreri erinevates versioonides näidatakse toetatavatest parim sisu kuvamise viis -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>E-pood</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- minu CSS -->
+<link rel="stylesheet" href="custom.css">
+</head>
+
+
+<body>
+
+    <header class="py-2"><!--добавляем отступы к элементу сверху и снизу-->
+        <div class="container-fluid"><!--terve ekraani laiusega .container-fluid/fikseeritud laiusega .container-->
+        <div class="row">
+        <div class=" col my-3 text-center "><!--uhes reas kuni 12 veerg, 12/3=4-->
+        <a href="index.html"><img src="kodu3_1.jpg" width="70%"></a>
+        </div>            
+        </div>        
+        </div>
+        
+    <!--navidatsioon---------------------><!--.navbar-expand-lg tähendab, et terve navigatsiooniriba on nähtav ainult suurtel ja väga suurtel ekraanidel, else- razvertka-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow"><!--navbar-light/dark - textcolour, bg-white - bg-colour-->
+                                                                        <!--shadow - ten posle bloka, sm-och mal, lg-och bolshaja, bez- standard-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+        
+        <li class="nav-item"><a class="nav-link" href="#">Uued tooted</a></li>
+        <li class="nav-item"><a class="nav-link" href="Meist.html">Meist</a></li>
+        <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vannitooted</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <!--podzag-->
+        <a class="dropdown-item" href="#">Vannisoolad</a>
+        <a class="dropdown-item" href="#">Vannipiimad</a>
+        <a class="dropdown-item" href="#">Vannipommid</a>
+        <a class="dropdown-item active" href="list.html">Seebid ja du&scaron;igeelid</a>
+        </div>
+        </li>
+        <!---->
+        <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kehahooldus</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item" href="#">Kehakreemid</a>
+        <a class="dropdown-item" href="#">Keha&otilde;lid</a>
+        <a class="dropdown-item" href="#">Kehakoorijad</a>
+        <a class="dropdown-item" href="#">Deodorandid</a>
+        <a class="dropdown-item" href="#">K&auml;te ja jalgade hooldus</a>  
+        </div>
+        </li>
+        
+        <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">N&auml;ohooldus</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item" href="#">Puhastus ja toniseerimine</a>
+        <a class="dropdown-item" href="#">Niisutus ja toitmine</a>
+        <a class="dropdown-item" href="#">Koorijad ja maskid</a>
+        </div>
+        </li>
+        
+        </ul>
+ 
+        <!-- search -->
+        <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Otsi..." aria-label="Search">
+        <button class="btn btn-outline-white my-2 my-sm-0" type="submit">
+            <svg class="lnr lnr-magnifier">
+                <use xlink:href="#lnr-magnifier"></use></svg></button>
+        </form>
+        
+        </div>
+        <!--https://linearicons.com/free - ikonki-->
+        <a href="cart.html"><button class="btn btn-dark my-2 my-sm-0" type="submit"><svg class="lnr lnr-cart"><use xlink:href="#lnr-cart"></use></svg></button></a>
+      
+        </nav>
+    
+
+    <!---------------------------------->
+        <!--mesto na sajte-->
+        <section>
+            <nav aria-label="breadcrumb" >
+            <ol class="breadcrumb bg-white ml-2">
+            <li class="breadcrumb-item"><a href="index.html">Avaleht</a></li>
+            <li class="breadcrumb-item active">Meist</li>
+            
+            </ol>
+            </nav>
+            </section>
+    </header>
+
+<main>
+
+
+    <!---------------------------->
+<section class="corusel_1">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://imagesvc.meredithcorp.io/v3/jumpstartpure/image?url=https://static.onecms.io/wp-content/uploads/sites/23/2018/06/15/507936866_5798838211001_5798081157001-vs.jpg&w=1280&h=720&q=90&c=cc"
+             alt=""  width="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.pinimg.com/736x/fd/1b/9a/fd1b9a8d17b351f325b41f9a9b748dee.jpg"
+            alt=""  width="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.pinimg.com/736x/b2/18/62/b2186282667424ec82751771832b5333.jpg"
+            alt=""  width="100%">
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
+    </section>
+      <!---->
+
+    <section>
+
+        <div class="container">
+            <h2 class="h mb-3" >Meist</h2>
+        <div class="row">
+        <div class="col-lg-6">
+             <h2 class="mb-3"> Ajaloo</h2>
+             <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor gravida ipsum, 
+                 non mollis lorem luctus ac. Proin interdum tortor a metus efficitur blandit vitae vitae diam. Donec tortor 
+                 leo, efficitur ultricies augue vel, consectetur ultrices lacus. Donec sollicitudin eleifend dolor et viverra. 
+                 Cras ornare velit dapibus nisl gravida maximus. In vulputate semper leo non ultrices. Fusce leo sem, dapibus 
+                 quis turpis sed, convallis consectetur metus. Integer eget quam sed leo pellentesque feugiat eget in urna. 
+                 Praesent eu enim velit. Suspendisse eget consequat turpis.</p>
+            </div>
+        <div class="col-lg-6">
+            <img src="https://cdn.shopify.com/s/files/1/0380/8537/articles/soaps_600x.jpg?v=1604008924"
+            class="img-fluid"/></div>    
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="kodu3_3.jpg"
+                class="img-fluid"/>
+                </div>
+            <div class="col-lg-6">
+                <h2 class="mb-3"> Toodest</h2>
+
+                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor gravida ipsum, 
+                    non mollis lorem luctus ac. Proin interdum tortor a metus efficitur blandit vitae vitae diam. Donec tortor 
+                    leo, efficitur ultricies augue vel, consectetur ultrices lacus. Donec sollicitudin eleifend dolor et viverra. 
+                    Cras ornare velit dapibus nisl gravida maximus. In vulputate semper leo non ultrices. Fusce leo sem, dapibus 
+                    quis turpis sed, convallis consectetur metus. Integer eget quam sed leo pellentesque feugiat eget in urna. 
+                    Praesent eu enim velit. Suspendisse eget consequat turpis.</p>
+               
+            </div>    
+            </div>
+        </div>
+        </section>
+
+
+
+        
+
+
+
+</main>
+<footer class="foote">
+<section class="bg-light">
+<div class="a">
+    <div class="container-fluid">
+    
+    <div class="row">
+    
+    <div class="col-lg-6">
+        
+        <div class="andmed">Asukoht: ----------</div>
+        <div class="andmed">Telefon: 1256789</div>
+        <div class="andmed">e-mail: -----@mail.com</div>
+    </div>
+    <div class="col-lg-6">
+        <div class="ikoon_1"><div class="ikoon"><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png" alt="instagram" /></a></div>
+        <div class="ikoon"><a href="#"><img src="https://cdn.worldvectorlogo.com/logos/pinterest-1.svg" alt="pinterest" /></a></div>
+        </div>
+        
+    </div>
+    
+    </div>
+    
+    </div>
+</div>
+    </section>
+    </footer>
+
+<!-- Размещение этих ссылок в начале документа может значительно увеличить время отображения страницы, поэтому они должны располагаться в конце -->
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!-- Popper.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<!-- Boostrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- ikoonid -->
+<script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+</body>
+</html>

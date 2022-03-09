@@ -1,0 +1,117 @@
+.carousel-item{
+    padding: 0px, 50px;
+    height: calc(100vh - 150px);
+    
+}
+.corusel_1{
+    margin-bottom: 50px;
+}
+/*navidatsia*/
+.lnr {/*formiruem blok navigat*/
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.05em;
+    stroke-width: 2;
+}
+
+.lnr-cart {/*parametri cart*/
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.lnr-magnifier {/*znac poiska*/
+    color: #48138d;   
+    font-size: 28px;
+}
+
+.navbar-nav li {/*rasstojanie mezdu*/
+    margin-right: 3em;
+}
+/********************************************/
+
+
+.h {
+    text-align: center;
+}
+
+.card-body {
+    align-content: center;
+}
+/*'''''''''''''''''''''''''''''''''''*/
+.jumbotron{
+    background-image: url("kodu3_2.jpg");
+    width: 100%;
+    /*height: calc(100vh - 500px);/*100vh ehk veebilehitseja terve akna suurus;500px – umbes nii suure osa ekraanist tahame teiste elementide jaoks jätta*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.row{
+    margin-top: 30px;
+}
+/************/
+
+.foote{
+
+    
+    
+    
+    margin-top: 20px;
+
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2px;
+    
+    }
+    .a{
+        padding: 7px 0px 15px 0px;
+    }
+
+    .ikoon_1 {
+        padding: 0 0 10px 0;
+        display: block;
+      float: right;
+      
+      
+        
+        }
+.ikoon {
+
+        width: 35px; /*shirina img*/
+        
+        
+        }
+.ikoon img {
+
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+/*ARVE FOR CART*/
+.arve{
+    padding: 20px 30px;
+    margin-left: 50px;
+}
+.arve_pealkiri{
+    text-decoration: underline rgb(117, 61, 190);
+}
+.hr {
+
+    color: rgb(117, 61, 190);
+    border-width: 2px;
+    border-color: rgb(117, 61, 190);
+    width: 60%;
+    margin: 0 auto;/*stavim po center*/
+    margin-bottom: 5px;
+}
+
+
+.input-group{
+    padding: 5px 30px;
+}
+.input-group-text{
+    color: rgb(117, 61, 190);
+    background-color: rgb(208, 177, 248);
+}
